@@ -31,13 +31,11 @@
                 </main>
 
                 <section id="buttons">
-                    <button>+ Adicionar ideia </button>
+                    <button onclick="onOff()">+ Adicionar ideia </button>
                     <button class="fat"> Ver ideias </button>
                 </section>
 
                 <footer id="footer">Com ❤️ <a href="https://www.linkedin.com/in/guimunizzz/">Obi-Wan</a></footer>
-
-                <script src="scripts.js"></script>
             </section>
 
 
@@ -58,11 +56,11 @@
 
                 <div class="idea">
                     <img
-                        src="https://image.flaticon.com/icons/svg/2729/2729007.svg"
-                        alt="Imagem de Curso de Programação">
+                        src="https://image.flaticon.com/icons/svg/2729/2729005.svg"
+                        alt="Imagem de Exercícios">
                     <div class="content">
-                        <h3>Cursos de Programação</h3>
-                        <p>Estudo</p>
+                        <h3>Exercícios</h3>
+                        <p>Saúde</p>
                         <div class="description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quod esse tempore adipisci, recusandae suscipit nostrum iste omnis natus. Aliquam, ad quisquam ducimus ipsa nihil facere harum odit. Eius, vero.
                         </div>
@@ -72,11 +70,11 @@
 
                 <div class="idea">
                     <img
-                        src="https://image.flaticon.com/icons/svg/2729/2729007.svg"
-                        alt="Imagem de Curso de Programação">
+                        src="https://image.flaticon.com/icons/svg/2729/2729027.svg"
+                        alt="Imagem de Meditação">
                     <div class="content">
-                        <h3>Cursos de Programação</h3>
-                        <p>Estudo</p>
+                        <h3>Meditação</h3>
+                        <p>Mentalidade</p>
                         <div class="description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quod esse tempore adipisci, recusandae suscipit nostrum iste omnis natus. Aliquam, ad quisquam ducimus ipsa nihil facere harum odit. Eius, vero.
                         </div>
@@ -84,8 +82,44 @@
                     </div>
                 </div>
             </section>
-
-
         </div>
+
+        <div id="modal" class="hide">
+            <div class="content">
+                <h1>Nova Ideia</h1>
+
+                <form action="">
+                    <div class="input-wrapper">
+                        <label for="title">Título da ideia</label>
+                        <input type="text" name="title">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="category">Categoria</label>
+                        <input type="text" name="category">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="image">Link da imagem</label>
+                        <input type="url" name="image">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="description">Digite uma descrição para essa ideia</label>
+                        <textarea name="description" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="link">Link da ideia</label>
+                        <input type="url" name="link">
+                    </div>
+
+                    <a href="#" onclick="onOff()">Voltar</a>
+                    <button>Salvar</button>
+                </form>
+            </div>
+        </div>
+
+        <script src="scripts.js"></script>
     </body>
 </html>
