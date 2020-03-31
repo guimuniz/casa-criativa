@@ -150,6 +150,8 @@ footer a {
 
     display: flex;
     justify-content: center;
+
+    transition: 400ms;
 }
 
 #modal .content {
