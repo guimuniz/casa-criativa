@@ -1,0 +1,24 @@
+{
+  "name": "casa_criativa",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guimuniz/casa_criativa.git"
+  },
+  "keywords": [],
+  "author": "Guilherme Muniz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guimuniz/casa_criativa/issues"
+  },
+  "homepage": "https://github.com/guimuniz/casa_criativa#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
